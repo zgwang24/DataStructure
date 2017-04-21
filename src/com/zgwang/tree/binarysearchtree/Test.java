@@ -15,13 +15,18 @@ public class Test {
 		n2.setLeft(n1);
 		n2.setRight(n3);
 		n6.setLeft(n5);
-		n6.setRight(n7);	
+		n6.setRight(n7);
+		// n1.setLeft(node);
 		// System.out.println(FindTraget.find(n4, n7));
 		// System.out.println(FindTraget.find2(n4, n7));
-		System.out.println(FindMax.findMax(n4));
-		System.out.println(FindMax.findMax2(n4));
-		System.out.println(FindMin.findMin(n4));
-		System.out.println(FindMin.findMin2(n4));
+		// System.out.println(FindMax.findMax(n4));
+		// System.out.println(FindMax.findMax2(n4));
+		// System.out.println(FindMin.findMin(n4));
+		// System.out.println(FindMin.findMin2(n4));
+		// System.out.println(FindLCA.find(n4, n1, n7).getData());
+		// System.out.println(IsBST.isBST(n4));
+		// MidTraverse.getMid(n4);
+		System.out.println(FindKMin.findK(n4, 7));
 	}
 	
 }
