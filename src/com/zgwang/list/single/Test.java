@@ -8,14 +8,17 @@ public class Test {
 		ListNode n4 = new ListNode(4);
 		ListNode n5 = new ListNode(5);
 		ListNode n6 = new ListNode(6);
-		// ListNode n7 = new ListNode(7);
+		ListNode n7 = new ListNode(1);
+		ListNode n8 = new ListNode(2);
+		ListNode n9 = new ListNode(6);
 		n1.setNext(n2);
 		n2.setNext(n3);
 		n3.setNext(n4);
 		n4.setNext(n5);
-		// n5.setNext(n6);
-		// n7.setNext(n3);
-		// n6.setNext(n3);
+		n5.setNext(n6);
+		
+		n7.setNext(n8);
+		n8.setNext(n9);
 		// System.out.println(ListLength.listLength(n1));
 		// ListNode node = ListInsert.insert(n1, n6, 15);
 		// ListNode node = ListDelete.delete(n1, 4);
@@ -32,6 +35,8 @@ public class Test {
 		// System.out.println(FindSameNode.find(n1, n7).getData());
 		// System.out.println(FindMiddle.find(n1).getData());
 		// ReverseList.reverse2(n1);
-		System.out.println(LengthIsJO.isJO(n1));
+		// System.out.println(LengthIsJO.isJO(n1));
+		// TraverseList.traverse(ListMerge.merge(n1, n7));
+		TraverseList.traverse(ReversePair.reverse(n1));
 	}
 }	
