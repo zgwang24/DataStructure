@@ -13,7 +13,11 @@ public class Test {
 		// System.out.println(Arrays.toString(a));
 		// InsertionSort.sort(a);
 		// System.out.println(Arrays.toString(a));
-		ShellSort.sort(a);
+		// ShellSort.sort(a);
+		// System.out.println(Arrays.toString(a));
+		// MergeSort.sort(a);
+		// System.out.println(Arrays.toString(a));
+		QuickSort.sort(a);
 		System.out.println(Arrays.toString(a));
 	}
 }
